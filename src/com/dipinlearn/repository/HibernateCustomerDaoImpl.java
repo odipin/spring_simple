@@ -10,8 +10,8 @@ public class HibernateCustomerDaoImpl implements CustomerDao {
 	public List<Customer> findAll(){
 		List<Customer> customers = new ArrayList<>();
 		Customer customer = new Customer();
-		customer.setFirstname("Dipin");
-		customer.setLastname("Ojha");
+		customer.setFirstname("John");
+		customer.setLastname("Smith");
 		
 		customers.add(customer);
 		return customers;
